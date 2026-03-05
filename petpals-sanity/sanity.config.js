@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'petpals-sanity',
 
-  projectId: '8cc6p2y9',
-  dataset: 'production',
+  projectId: process.env.VITE_SANITY_PROJECT_ID,
+  dataset: process.env.VITE_SANITY_DATASET,
 
   plugins: [structureTool(), visionTool()],
 

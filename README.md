@@ -46,10 +46,10 @@ npm run dev
 
 ## 🔮 Future Enhancements
 
-- [ ] **Booking System:** Real-time appointment scheduler with veterinarians.
-- [ ] **Pet Profiles:** User-specific dashboards to track pet medical history.
-- [ ] **E-commerce:** Integrated shop for pet food and medicines.
-- [ ] **Community Forum:** A social space for pet parents to connect.
+- **Booking System:** Real-time appointment scheduler with veterinarians.
+- **Pet Profiles:** User-specific dashboards to track pet medical history.
+- **E-commerce:** Integrated shop for pet food and medicines.
+- **Community Forum:** A social space for pet parents to connect.
 
 ##🤝 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have ideas to improve PetPals.

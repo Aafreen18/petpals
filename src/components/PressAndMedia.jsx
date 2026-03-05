@@ -9,9 +9,7 @@ const PressAndMedia = () => {
   useEffect(() => {
     const fetchNewsData = async () => {
       try {
-        const apiKey = import.meta.env.PROD 
-            ? process.env.VITE_NEWS_API_KEY 
-            : import.meta.env.VITE_NEWS_API_KEY;
+       const apiKey = import.meta.env.VITE_NEWS_API_KEY || "";
          
         const response = await axios.get(
           `https://newsapi.org/v2/everything?q=pet+safety OR animal+welfare&language=en&sortBy=publishedAt&apiKey=${apiKey}`

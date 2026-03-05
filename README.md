@@ -32,26 +32,27 @@ PetPals is a modern, responsive web application designed to connect pet owners w
 ├── index.html         # Entry point
 └── vite.config.js     # Vite configuration
 
-2. Configure Environment Variables
+##⚙️ Configure Environment Variables
 Create a .env file in the root directory:
 
 Plaintext
 VITE_SANITY_PROJECT_ID=your_project_id
 VITE_SANITY_DATASET=production
-3. Run the Project
-Bash
+
+## ▶️ Run the Project
+
+```bash
 npm run dev
-🔮 Future Enhancements
-[ ] Booking System: Real-time appointment scheduler with veterinarians.
 
-[ ] Pet Profiles: User-specific dashboards to track pet medical history.
+## 🔮 Future Enhancements
 
-[ ] E-commerce: Integrated shop for pet food and medicines.
+- [ ] **Booking System:** Real-time appointment scheduler with veterinarians.
+- [ ] **Pet Profiles:** User-specific dashboards to track pet medical history.
+- [ ] **E-commerce:** Integrated shop for pet food and medicines.
+- [ ] **Community Forum:** A social space for pet parents to connect.
 
-[ ] Community Forum: A social space for pet parents to connect.
-
-🤝 Contributing
+##🤝 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have ideas to improve PetPals.
 
-📄 License
+##📄 License
 This project is licensed under the MIT License.
